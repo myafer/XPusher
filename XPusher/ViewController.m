@@ -29,10 +29,10 @@
     NSError *error = nil;
     NSArray *certs = [NWSecTools keychainCertificatesWithError:&error];
     if (!certs) {
-        NWLogWarn(@"Unable to access keychain: %@", error.localizedDescription);
+//        NWLogWarn(@"Unable to access keychain: %@", error.localizedDescription);
     }
     if (!certs.count) {
-        NWLogWarn(@"No push certificates in keychain.");
+//        NWLogWarn(@"No push certificates in keychain.");
     }
     certs = [certs sortedArrayUsingComparator:^NSComparisonResult(NWCertificateRef a, NWCertificateRef b) {
         NWEnvironmentOptions envOptionsA = [NWSecTools environmentOptionsForCertificate:a];
