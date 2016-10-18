@@ -12,6 +12,13 @@
 		42AB68131DB609F200E7BE0A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42AB68121DB609F200E7BE0A /* ViewController.m */; };
 		42AB68151DB609F300E7BE0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42AB68141DB609F300E7BE0A /* Assets.xcassets */; };
 		42AB68181DB609F300E7BE0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42AB68161DB609F300E7BE0A /* Main.storyboard */; };
+		42AB682E1DB61C5B00E7BE0A /* NWHub.m in Sources */ = {isa = PBXBuildFile; fileRef = 42AB68211DB61C5B00E7BE0A /* NWHub.m */; };
+		42AB682F1DB61C5B00E7BE0A /* NWNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 42AB68231DB61C5B00E7BE0A /* NWNotification.m */; };
+		42AB68301DB61C5B00E7BE0A /* NWPusher.m in Sources */ = {isa = PBXBuildFile; fileRef = 42AB68251DB61C5B00E7BE0A /* NWPusher.m */; };
+		42AB68311DB61C5B00E7BE0A /* NWPushFeedback.m in Sources */ = {isa = PBXBuildFile; fileRef = 42AB68271DB61C5B00E7BE0A /* NWPushFeedback.m */; };
+		42AB68321DB61C5B00E7BE0A /* NWSecTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 42AB68291DB61C5B00E7BE0A /* NWSecTools.m */; };
+		42AB68331DB61C5B00E7BE0A /* NWSSLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 42AB682B1DB61C5B00E7BE0A /* NWSSLConnection.m */; };
+		42AB68341DB61C5B00E7BE0A /* NWType.m in Sources */ = {isa = PBXBuildFile; fileRef = 42AB682D1DB61C5B00E7BE0A /* NWType.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,20 @@
 		42AB68141DB609F300E7BE0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42AB68171DB609F300E7BE0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		42AB68191DB609F300E7BE0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42AB68201DB61C5B00E7BE0A /* NWHub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NWHub.h; sourceTree = "<group>"; };
+		42AB68211DB61C5B00E7BE0A /* NWHub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NWHub.m; sourceTree = "<group>"; };
+		42AB68221DB61C5B00E7BE0A /* NWNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NWNotification.h; sourceTree = "<group>"; };
+		42AB68231DB61C5B00E7BE0A /* NWNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NWNotification.m; sourceTree = "<group>"; };
+		42AB68241DB61C5B00E7BE0A /* NWPusher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NWPusher.h; sourceTree = "<group>"; };
+		42AB68251DB61C5B00E7BE0A /* NWPusher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NWPusher.m; sourceTree = "<group>"; };
+		42AB68261DB61C5B00E7BE0A /* NWPushFeedback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NWPushFeedback.h; sourceTree = "<group>"; };
+		42AB68271DB61C5B00E7BE0A /* NWPushFeedback.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NWPushFeedback.m; sourceTree = "<group>"; };
+		42AB68281DB61C5B00E7BE0A /* NWSecTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NWSecTools.h; sourceTree = "<group>"; };
+		42AB68291DB61C5B00E7BE0A /* NWSecTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NWSecTools.m; sourceTree = "<group>"; };
+		42AB682A1DB61C5B00E7BE0A /* NWSSLConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NWSSLConnection.h; sourceTree = "<group>"; };
+		42AB682B1DB61C5B00E7BE0A /* NWSSLConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NWSSLConnection.m; sourceTree = "<group>"; };
+		42AB682C1DB61C5B00E7BE0A /* NWType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NWType.h; sourceTree = "<group>"; };
+		42AB682D1DB61C5B00E7BE0A /* NWType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NWType.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +77,7 @@
 		42AB680A1DB609F200E7BE0A /* XPusher */ = {
 			isa = PBXGroup;
 			children = (
+				42AB681F1DB61C5B00E7BE0A /* Classes */,
 				42AB680B1DB609F200E7BE0A /* AppDelegate.h */,
 				42AB680C1DB609F200E7BE0A /* AppDelegate.m */,
 				42AB68111DB609F200E7BE0A /* ViewController.h */,
@@ -74,6 +96,27 @@
 				42AB680F1DB609F200E7BE0A /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		42AB681F1DB61C5B00E7BE0A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				42AB68201DB61C5B00E7BE0A /* NWHub.h */,
+				42AB68211DB61C5B00E7BE0A /* NWHub.m */,
+				42AB68221DB61C5B00E7BE0A /* NWNotification.h */,
+				42AB68231DB61C5B00E7BE0A /* NWNotification.m */,
+				42AB68241DB61C5B00E7BE0A /* NWPusher.h */,
+				42AB68251DB61C5B00E7BE0A /* NWPusher.m */,
+				42AB68261DB61C5B00E7BE0A /* NWPushFeedback.h */,
+				42AB68271DB61C5B00E7BE0A /* NWPushFeedback.m */,
+				42AB68281DB61C5B00E7BE0A /* NWSecTools.h */,
+				42AB68291DB61C5B00E7BE0A /* NWSecTools.m */,
+				42AB682A1DB61C5B00E7BE0A /* NWSSLConnection.h */,
+				42AB682B1DB61C5B00E7BE0A /* NWSSLConnection.m */,
+				42AB682C1DB61C5B00E7BE0A /* NWType.h */,
+				42AB682D1DB61C5B00E7BE0A /* NWType.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,9 +189,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42AB68321DB61C5B00E7BE0A /* NWSecTools.m in Sources */,
 				42AB68131DB609F200E7BE0A /* ViewController.m in Sources */,
 				42AB68101DB609F200E7BE0A /* main.m in Sources */,
+				42AB682F1DB61C5B00E7BE0A /* NWNotification.m in Sources */,
+				42AB682E1DB61C5B00E7BE0A /* NWHub.m in Sources */,
 				42AB680D1DB609F200E7BE0A /* AppDelegate.m in Sources */,
+				42AB68341DB61C5B00E7BE0A /* NWType.m in Sources */,
+				42AB68301DB61C5B00E7BE0A /* NWPusher.m in Sources */,
+				42AB68331DB61C5B00E7BE0A /* NWSSLConnection.m in Sources */,
+				42AB68311DB61C5B00E7BE0A /* NWPushFeedback.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +346,7 @@
 				42AB681E1DB609F300E7BE0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
