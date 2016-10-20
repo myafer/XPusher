@@ -48,6 +48,7 @@
     for (NWCertificateRef c in certs) {
         [pairs addObject:@[c, NSNull.null]];
     }
+    NSLog(@"%@", pairs);
 //    _certificateIdentityPairs = [_certificateIdentityPairs arrayByAddingObjectsFromArray:pairs];
 }
 
